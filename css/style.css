@@ -1,0 +1,39 @@
+.hole_game, .loading_sorting, .in_memory {
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.hole_game:hover, .loading_sorting:hover, .in_memory:hover {
+    border: orangered solid 1px;
+}
+
+.hole {
+    width: 120px;
+    height: 120px;
+    border: grey solid 1px;
+    border-radius: 50%;
+}
+
+.hole-game {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.active {
+    border: orangered solid 1px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead, tr, td {
+    border: 1px solid #000000;
+}
